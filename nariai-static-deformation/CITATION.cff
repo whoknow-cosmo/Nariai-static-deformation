@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "Numerical companion to: A Static Axisymmetric Deformation of Nariai Geometry"
+abstract: >-
+  Scripts reproducing the numerical results of the paper "A Static Axisymmetric
+  Deformation of Nariai Geometry: Nonround Horizons without Rotation or Conical
+  Defects": the energy-condition threshold lambda_c = 0.363619247... and the
+  horizon-geometry figure.
+type: software
+authors:
+  - family-names: Kim
+    given-names: Hyeong-Chan
+    affiliation: "School of Liberal Arts and Sciences, Korea National University of Transportation"
+    email: hyeongchan@gmail.com
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add your ORCID
+license: MIT
+version: 1.0.0
+date-released: 2026-09-01
+keywords:
+  - general relativity
+  - exact solutions
+  - Nariai spacetime
+  - Petrov classification
+  - black hole horizons
+  - energy conditions
+# repository-code: "https://github.com/USER/nariai-static-deformation"   # TODO
+# doi: "10.5281/zenodo.XXXXXXX"                                          # TODO after first release
+preferred-citation:
+  type: article
+  title: >-
+    A Static Axisymmetric Deformation of Nariai Geometry:
+    Nonround Horizons without Rotation or Conical Defects
+  authors:
+    - family-names: Kim
+      given-names: Hyeong-Chan
+  year: 2026
+  # journal: ""                        # TODO
+  # doi: ""                            # TODO
+  # url: "https://arxiv.org/abs/XXXX.XXXXX"   # TODO

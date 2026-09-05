@@ -1,0 +1,23 @@
+{
+  "title": "Numerical companion to: A Static Axisymmetric Deformation of Nariai Geometry",
+  "description": "<p>Scripts reproducing the numerical results of the paper <em>A Static Axisymmetric Deformation of Nariai Geometry: Nonround Horizons without Rotation or Conical Defects</em>.</p><p><code>energy_conditions.py</code> reproduces the weak/dominant energy-condition threshold &lambda;<sub>c</sub> = 0.363619247&hellip; at 30 significant digits (Sec. 7.3). <code>horizon_figure.py</code> builds the horizon-geometry figure and table (Sec. 5.3). <code>crosscheck.py</code> verifies that the two independent Legendre-function implementations agree.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Kim, Hyeong-Chan",
+      "affiliation": "School of Liberal Arts and Sciences, Korea National University of Transportation"
+    }
+  ],
+  "keywords": [
+    "general relativity",
+    "exact solutions",
+    "Nariai spacetime",
+    "Petrov classification",
+    "black hole horizons",
+    "energy conditions"
+  ],
+  "grants": [{"id": "RS-2026-25483539"}],
+  "related_identifiers": []
+}

@@ -1,0 +1,29 @@
+name: reproduce
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install -r requirements.txt
+      - name: Cross-check the two Legendre implementations
+        run: python crosscheck.py
+      - name: Energy conditions and lambda_c
+        run: python energy_conditions.py
+      - name: Horizon figure and table
+        run: python horizon_figure.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: output-py${{ matrix.python-version }}
+          path: output/
